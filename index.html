@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT World Peace University | Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM8pNQ2ysSCb4O_d0bI855OZVMH8u2Q4A8zg&s" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="https://mitwpu.edu.in/assets/frontend/images/mit-wpu_logo.png" alt="">
+        </div>
+    </header>
+
+    <main>
+        <div class="registrationbox">
+            <div class="WelcomeMessage">
+                <H1>Welcome!!</H1>
+            </div>
+
+            <div class="form">
+                <label for="fname" class="labeltext">Name</label>
+                <input type="text" id="fname" placeholder="Enter your name" name="fname" class="inputbox">
+
+                <label for="fnumber">Contact</label>
+                <input type="number" id="fnumber" placeholder="Enter your mobile number" name="fnumber" class="inputbox">
+
+                <label for="fmail">Email</label>
+                <input type="email" id="fmail" placeholder="Enter your Email" name="fmail" class="inputbox">
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" placeholder="Enter your DOB" class="inputbox">
+
+                <label for="fstate">State</label>
+                <select name="fstate" id="fstate" class="inputbox">
+                    <option value="Select">--Select--</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Gujrat">Gujrat</option>
+                    <option value="Kerala">Kerala</option>
+                </select>
+
+                <label for="fexam">Exam</label>
+                <select name="fexam" id="fexam" class="inputbox">
+                    <option value="Select">--Select--</option>
+                    <option value="JEE_mains">JEE-Main</option>
+                    <option value="Para_cet">PARA-CET</option>
+                    <option value="MHCET">MH-CET</option>
+                </select>
+
+                <label for="fscore">Score(%ile)</label>
+                <input type="number" id="fscore" placeholder="Enter your exam score" name="fscore" class="inputbox">
+
+                <label for="document">Upload Result Sheet</label>
+                <input type="file" id="document" name="document" class="inputbox">
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="declaration2" name="declaration2" value="declaration">
+                    <label for="declaration2">I hereby agree with <a href="terms_and_conditions.html" target="_main">terms & conditions</a></label>
+                </div>
+            </div>
+
+            <div class="RegisterButtonDiv">
+                <button class="RegisterButton">Register Now !</button>
+            </div>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
